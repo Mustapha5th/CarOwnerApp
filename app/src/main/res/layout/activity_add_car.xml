@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddCar">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="enter owner name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="enter phone number"
+        android:inputType="phone" />
+
+
+    <EditText
+        android:id="@+id/etRegNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter your registration number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCarName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter car make"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter car model"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPlateNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Car plate number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorPrimary"
+        android:text="add car"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>
